@@ -3,9 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <h1>teste</h1>
+    <h1>Noticias</h1>
 </head>
 <body>
-
+    <table>
+        {% for notice in lista %}
+        <tr>
+            <td>{{ notice }}</td>
+        </tr>
+        {% endfor %}
+    </table>
 </body>
 </html>
