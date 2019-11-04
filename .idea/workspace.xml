@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a13aca34-55af-4e0b-a02a-b3d51cedb7d5" name="Default Changelist" comment="" />
+    <list default="true" id="a13aca34-55af-4e0b-a02a-b3d51cedb7d5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/noticias/templates/noticias.html" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/noticias/templates/noticias.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projeto/noticias/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/projeto/noticias/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +29,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../scraping/scraping.py" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">

@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    {% load static %}
+
     <meta charset="UTF-8">
     <title>Title</title>
-    <h1>Noticias</h1>
+    <link rel="stylesheet" href="{% static '/css/mycss.css' %}">
 </head>
 <body>
-    <table>
-        {% for notice in lista %}
-        <tr>
-            <td>{{ notice }}</td>
-        </tr>
-        {% endfor %}
-    </table>
+</head>
+<body>
+
+<div style="padding:100px">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+    <ul id="myUL">
+    </ul>
+</div>
+
+<script text="text/javascript">
+const lista = {{ list_news | safe }}
+</script>
+
+<script type="text/javascript" src="{% static '/js/myjs.js' %}"></script>
 </body>
 </html>
